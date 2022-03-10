@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(143, 255, 249), rgb(250, 108, 108));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#desc_todas{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+
+    text-shadow: 10px 10px 10px black;
+}
+
+#desc_1{
+    width: 300px;
+    color: rgb(255, 255, 255);
+}
+
+#desc_2{
+    width: 300px;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+#desc_3{
+    width: 300px;
+    color: rgb(255, 255, 255);
+}
+
+.button{
+    background-color: black;
+    width: 15px;
+    height: 10px;
+}
+
+#information{
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 10px 10px black;
+}

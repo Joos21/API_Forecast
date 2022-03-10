@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperatura</title>
+</head>
+<body>
+    <div>
+        <h1>Previsão do Tempo</h1>
+        <div id="desc_todas">
+            <div id="desc_1">
+                <h2>Como Usar a API:</h2>
+
+                <p>No local de inserir dados você escreve a cidade que deseja saber a temperatura e a previsão.</p>
+
+                
+            </div>
+            <div id="desc_2">
+                <h2>O link da API ultilizada:</h2>
+                <p>(https://openweathermap.org/api)</p>
+            
+            </div>
+            <div id="desc_3">
+                <h2>Referências:</h2>
+                <p>Nome do Vídeo : JavaScript Weather App Tutorial using Openweathermap API for beginners | JavaScript tutorial<p>
+                <p>Link do vídeo: (https://youtu.be/GXrDEA3SIOQ) </p>
+            </div>
+        </div>
+        
+        <div id="dados">
+            <input class="inputValue" value="" placeholder="Escreva a cidade."></input>
+            <br>
+            <button class="button"></button>
+        </div>
+
+        <div id="information">
+            <h1>
+                <output class="name"></output>
+            </h1>
+
+            <p> 
+                Previsão:
+                <output class="desc"></output>
+            </p>
+
+            <p>
+                Temperatura(Celsius):
+                <output class="temp"></output>
+            </p>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
